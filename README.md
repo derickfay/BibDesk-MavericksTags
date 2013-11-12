@@ -3,6 +3,10 @@ BibDesk-MavericksTags
 
 Applescripts for working with BibDesk, Skim and Mavericks tags
 
+### Dependencies
+
+Install https://github.com/jdberry/tag first
+
 ## keywords2tags
 
 Adds the Keywords from the current selection in BibDesk to all linked files as Mavericks tags.
@@ -12,6 +16,7 @@ limitations:
 
 to do:
 - two way sync to add any existing Mavericks tags back to BibDesk
+- could update to use jdberry's tag rather than kludgy Applescript
 
 ## Tag Current Skim Document
 
