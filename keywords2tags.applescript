@@ -9,7 +9,7 @@ tell application "BibDesk"
 	-- without document, there is no selection, so nothing to do
 	if (count of documents) = 0 then
 		beep
-		display dialog "No documents found." buttons {"â€¢"} default button 1 giving up after 3
+		display dialog "No documents found." buttons {"¥"} default button 1 giving up after 3
 	end if
 	set thePublications to the selection of document 1
 	
